@@ -1,0 +1,44 @@
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: green;
+    justify-content: space-between;
+    display:flex;
+    margin: 0 auto;
+    animation: changeColor 5s infinite;
+}
+
+.nav-item{
+    border: red solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes changeColor{
+    0%{
+        background-color: green;
+       
+
+    }
+    50%{background-color: aqua;
+        height: 20vh;
+}
+    100%{
+        background-color: red;
+        height: 30vh;
+    }
+
+
+
+/* this is the trigger  */
+@media (max-width:650px){
+/* this is what is supposed to happen when trigger is engaged */
+    .nav{
+        display: block;
+        background-color: salmon;
+        height: 25vh;
+        color: seashell;
+    }
+}

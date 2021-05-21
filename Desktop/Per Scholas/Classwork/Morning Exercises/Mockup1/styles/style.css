@@ -1,0 +1,31 @@
+.parent {
+    display: flexbox;
+    border: blue solid 5px;
+    justify-content: space-between;
+    border-radius: 10%;
+}
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template: 5 fr/ 2fr;
+    border: chartreuse solid 1px;
+    border-radius: 9%;
+    height: 100px;
+    width: 100px;
+    justify-content: space-evenly;
+}
+#box1 {
+    background-color: cornflowerblue;
+   
+}
+#box2 {
+    background-color: crimson;
+}
+#box3 {
+    background-color: cornflowerblue;
+}
+#box10 {
+    height: 100px;
+    width: 300px;
+  
+}

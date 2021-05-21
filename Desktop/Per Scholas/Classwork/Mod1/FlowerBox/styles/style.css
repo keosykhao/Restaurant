@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    display: grid;
+   grid-template-rows: 100px 100px;
+   grid-template-columns: 100px 100px;
+   width: 100vw;
+   height: 100vh;
+
+}
+
+    
+#box1{
+  
+    background-color: red;
+    animation-name: box1 1s infinite;
+
+  
+   
+}
+
+#box2{
+  
+    background-color: green;
+}
+
+#box3{
+ 
+    background-color:blue;
+}
+#box4{
+   
+    background-color:yellow;
+}
+
+@keyframes box1 {
+    transfor
+}
+
