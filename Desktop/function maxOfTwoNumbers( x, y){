@@ -1,7 +1,0 @@
-function maxOfTwoNumbers( x, y){
-	if (x > y){
-	return x
-	}
-	else if 
-}
-
